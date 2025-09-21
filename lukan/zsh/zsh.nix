@@ -13,7 +13,7 @@
 
       shellAliases = {
         ll = "ls -l";
-        update = "sudo nixos-rebuild switch";
+        update = "sudo nixos-rebuild switch && git -C /etc/nixos add /etc/nixos && git -C /etc/nixos commit -m 'nixos-rebuild switch' && git -C /etc/nixos push";
         reload = "
         
         

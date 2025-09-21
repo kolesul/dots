@@ -33,6 +33,7 @@ in
             kitty
             vscode
             bitwarden
+            gh
         ];
 
         home.stateVersion = "25.05";
