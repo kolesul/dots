@@ -54,7 +54,7 @@
       openFirewall = true;
     };
     zsh.enable = true;
-    nm-applet.enable = true;
+    # networkmanagerapplet.enable = true;
   };
 
   environment.pathsToLink = [ "/share/zsh" ];
@@ -63,6 +63,7 @@
     nano
     wget
     git
+    blueman
   ];
 
   services = {
