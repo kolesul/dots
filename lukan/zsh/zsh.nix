@@ -14,69 +14,7 @@
       shellAliases = {
         ll = "ls -l";
         update = "sudo nixos-rebuild switch && git -C /etc/nixos add /etc/nixos && git -C /etc/nixos commit -m 'nixos-rebuild switch' && git -C /etc/nixos push";
-        reload = "
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        exec zsh";
+        reload = "exec zsh";
         c = "clear";
         h = "history";
         j = "jobs -l";
